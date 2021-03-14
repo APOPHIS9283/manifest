@@ -168,9 +168,6 @@
   </project>
   <project path="manifest" name="manifest" remote="evo" />
   <project path="platform_testing" name="platform_testing" remote="evo" />
-  <project path="vendor/evolution" name="vendor_evolution" remote="evo" />
-  <project path="vendor/gms" name="vendor_gapps" groups="vendor" clone-depth="1" remote="evo-gitlab" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
 
   <!-- CAF Hals -->
   <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" groups="pdk" remote="github/hentaiOS" />
@@ -196,7 +193,6 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="evo" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="evo" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" clone-depth="1" remote="evo" />
